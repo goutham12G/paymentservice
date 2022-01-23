@@ -7,6 +7,8 @@ FROM base as builder
 RUN apk add --update --no-cache \
     python \
     git
+    make \
+    g++ \
 
 WORKDIR /usr/src/app
 
