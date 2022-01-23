@@ -6,8 +6,6 @@ FROM base as builder
 # deps for post-install scripts
 RUN apk add --update --no-cache \
     python \
-    make \
-    g++ \
     git
 
 WORKDIR /usr/src/app
