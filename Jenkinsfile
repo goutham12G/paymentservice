@@ -48,7 +48,6 @@ spec:
         container('node') {
           sh """
             ln -s `pwd` 
-            mvn clean install
           """
         }
       }
