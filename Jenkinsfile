@@ -48,7 +48,7 @@ spec:
         container('node') {
           sh """
             ln -s `pwd` 
-            node-pre-gyp install
+          
           """
         }
       }
