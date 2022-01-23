@@ -48,6 +48,7 @@ spec:
         container('node') {
           sh """
             ln -s `pwd` 
+            npm install
           """
         }
       }
